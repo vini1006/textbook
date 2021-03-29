@@ -1,0 +1,21 @@
+{
+  "name": "learn-sequelize",
+  "version": "0.0.1",
+  "description": "studying sequelize (orm)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "author": "vini",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mariadb": "^2.5.3",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.2.5",
+    "nunjucks": "^3.2.3",
+    "sequelize": "^6.6.0",
+    "sequelize-cli": "^6.2.0"
+  }
+}

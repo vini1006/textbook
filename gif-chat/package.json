@@ -1,0 +1,30 @@
+{
+  "name": "gif-chat",
+  "version": "0.0.1",
+  "description": "GIF 웹소켓 채팅방",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "author": "vini",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "color-hash": "^1.0.3",
+    "cookie-parser": "^1.4.5",
+    "cookie-signature": "^1.1.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.12.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "nunjucks": "^3.2.3",
+    "socket.io": "^4.0.0",
+    "ws": "^7.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
